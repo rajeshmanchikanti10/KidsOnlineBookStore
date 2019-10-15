@@ -1,0 +1,320 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body{
+ background-image: url("background2.jpeg");
+
+  /* Full height */
+  height: 700px; 
+
+margin:0;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+}
+.but
+{
+  background-color: gray; /* Green */
+  
+  color: white;
+  padding: 15px 32px;
+  //width:150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border:2px solid #4CAF50;
+  font-size: 16px
+}
+.but:hover
+{
+background-color: #f44336;
+border:2px solid #555555;
+//color:blue;
+}
+.but:visited {
+  background-color:#FF00FF;
+  color: #00FF00;
+}
+.catdiv
+{height:600px;
+width:400px;
+border:2px solid;
+text-align:center;
+background-color:skyblue;
+float:left;
+}
+.listelements{
+font-size:45px;
+border-bottom:1px solid #ccc;
+}
+.categorybut:hover{
+background-color:black;
+}
+.categorybut{
+color:white;
+background-color:skyblue;
+  //padding: 13px 120px;
+  width:400px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ 
+  font-size: 45px;
+}
+
+</style>
+<link href="stylesheet1.css" type="text/css" rel="stylesheet">
+</head>
+<body overflow:scroll style="background-color:mintcream;">
+<center><h1 style="text-align:center;font-family:verdana;background-color:tomato;width:600px;positon:absolute;" >RTC groups OnlineSecondBookHandStore</h1></center><br>
+<div>
+<div>
+<a href="mainpage.html"><center><button value="home" class="but">Home</button></a>
+<a href="books.html"><button value="Books"class="but">Books</button></a>
+<button value="Bulksales" class="but">Bulksales</button>
+<a href="AboutUs.html"><button value="AboutUs" class="but">AboutUs</button></a>
+<button value="ContactUs" class="but">ContactUS</button>
+<a href="login.html"><button value="Login" class="but">Login</button></a>
+</div>
+<br></br>
+<div class="catdiv" float:"left">
+<h1 style="color:#f6f6f6;font-size:50px;">By category</h1>
+<ul style="list-style-type:none margin:0;padding:0;">
+<li class="listelements"><button class="categorybut" id="1" onclick=dis(this.id)>Mystery</button></li>
+<li class="listelements"><button class="categorybut" id="2" onclick=dis(this.id)>Humor</button></li>
+<li class="listelements"><button class="categorybut" id="3" onclick=dis(this.id)>Comics</button></li>
+<li class="listelements"><button class="categorybut" id="4" onclick=dis(this.id)>Biography</button></li>
+<li class="listelements"><button class="categorybut" id="5" onclick=dis(this.id)>Romance</button></li>
+<li class="listelements"><button class="categorybut" id="6" onclick=dis(this.id)>Travel</button></li>
+<li class="listelements"><button class="categorybut" id="7" onclick=dis(this.id)>Horror</button></li>
+</ul>
+</div>
+<div float="left">
+<div id="div1" style="background:green"  class="categories">
+this div tag belongs to mystery
+</div>
+<div id="div2" style="background:silver"  class="categories">
+this div tag belongs to humor
+</div>
+<div id="div3" style="background:darkslateblue"  class="categories">
+this div tag belongs to comics
+</div>
+<div id="div4" style="background:skyblue"  class="categories">
+<div class="left">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/biography/Becoming/becoming.jpg" alt="biography of obama's wife" class="imageclass" ></a>
+<p>Becoming is the memoir of former United States first lady Michelle Obama published in 2018.
+Described by the author as a deeply personal experience, the book talks about her roots and how she found her voice, as well as her time in the White House, her public health campaign, and her role as a mother.
+The book is published by Crown and will be released in 24 languages.One million copies will be donated to First Book, an American nonprofit organization which provides books to children.</p>
+</div>
+<div class="right" >
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/biography/Long Walk to Freedom/Long_Walk_to_Freedom.jpg" alt="nelson mandela's biography" class="imageclass"></a>
+<p>Long Walk to Freedom is an autobiography written by South African President Nelson Mandela, and first published in 1994 by Little Brown & Co.
+ The book profiles his early life, coming of age, education and 27 years in prison. Under the apartheid government, Mandela was regarded as a terrorist and jailed on the infamous Robben Island for his role as a leader of the then-outlawed ANC.
+ He later achieved international recognition for his leadership as president in rebuilding the country's once segregated society.
+The last chapters of the book describe his political ascension, and his belief that the struggle still continued against apartheid in South Africa.</p>
+</div>
+<div class="left">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/biography/The Story of My Experiments with Truth/519puhsMC+L.jpg" alt="mahatma gandhi's biography" class="imageclass"></a>
+<p>The Story of My Experiments with Truth is the autobiography of Mohandas K. Gandhi, covering his life from early childhood through to 1921.
+ It was written in weekly installments and published in his journal Navjivan from 1925 to 1929. Its English translation also appeared in installments in his other journal Young India.
+ It was initiated at the insistence of Swami Anand and other close co-workers of Gandhi, who encouraged him to explain the background of his public campaigns. 
+In 1999, the book was designated as one of the "100 Best Spiritual Books of the 20th Century" by a committee of global spiritual and religious authorities.</p>
+</div>
+<div class="right">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/biography/The Autobiography of Benjamin Franklin/download.jpg" alt="benjamin franklin's" class="imageclass"></a>
+<p>The Autobiography of Benjamin Franklin is the traditional name for the unfinished record of his own life written by Benjamin Franklin from 1771 to 1790; however, Franklin himself appears to have called the work his Memoirs. 
+Although it had a tortuous publication history after Franklin's death, this work has become one of the most famous and influential examples of an autobiography ever written.
+
+Franklin's account of his life is divided into four parts, reflecting the different periods at which he wrote them.
+ There are actual breaks in the narrative between the first three parts, but Part Three's narrative continues into Part Four without an authorial break </p>
+</div>
+<div class="left">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/biography/Steve Jobs/Steve_Jobs_by_Walter_Isaacson.jpg" alt="steve job's biography" class="imageclass"></a>
+<p>Steve Jobs is the authorized self-titled biography book of Steve Jobs. 
+The book was written at the request of Jobs by Walter Isaacson, a former executive at CNN and TIME who has written best-selling biographies of Benjamin Franklin and Albert Einstein.
+
+Based on more than forty interviews with Jobs conducted over two years—in addition to interviews with more than one hundred family members, friends, adversaries, competitors, and colleagues—Isaacson was given "unprecedented" access to Jobs's life.
+Jobs is said to have encouraged the people interviewed to speak honestly. Although Jobs cooperated with the book, he asked for no control over its content other than the book's cover, and waived the right to read it before it was published.[4]
+
+The book was released on October 24, 2011, by Simon & Schuster in the United States, 19 days after Jobs' death.
+
+A film adaptation written by Aaron Sorkin and directed by Danny Boyle, with Michael Fassbender starring in the title role, was released on October 9, 2015.</p>
+</div>
+<div class="right">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/biography/The Story of My Life/The_Story_of_My_Life_Cover.jpg" alt="Helen keller's biography" class="imageclass"></a>
+<p>The Story of My Life, first published in 1903, is Helen Keller's autobiography detailing her early life, especially her experiences with Anne Sullivan.
+ Portions of it were adapted by William Gibson for a 1957 Playhouse 90 production, a 1959 Broadway play, a 1962 Hollywood feature film, and the Indian film Black. 
+The book is dedicated to inventor Alexander Graham Bell. 
+The dedication reads, "To ALEXANDER GRAHAM BELL Who has taught the deaf to speak and enabled the listening ear to hear speech from the Atlantic to the Rockies, I dedicate this Story of My Life."</p>
+</div>
+<div class="left">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/biography/Wings of Fire/Wings_of_Fire_by_A_P_J_Abdul_Kalam_Book_Cover.jpg" alt="APJ Abdul kalam's biography" class="imageclass"></a>
+<p>Wings of Fire: An Autobiography of A P J Abdul Kalam (1999), former President of India.
+ It was written by Dr. Kalam and Arun Tiwari.Kalam examines his early life, effort, hardship, fortitude, luck and chance that eventually led him to lead Indian space research, nuclear and missile programs. 
+Kalam started his career, after graduating from Aerospace engineering at MIT (Chennai), India, at Hindustan Aeronautics Limited and was assigned to build a hovercraft prototype. Later he moved to ISRO and helped establish the Vikram Sarabhai Space Centre and pioneered the first space launch-vehicle program. During the 1990s and early 2000, Kalam moved to the DRDO to lead the Indian nuclear weapons program, with particular successes in thermonuclear weapons development culminating in the operation Smiling Buddha and an ICBM Agni (missile). 
+Kalam died on 27 July 2015, during a speech at Indian Institute of Management in Shillong, Meghalaya.</p>
+</div>
+</div>
+<div id="div5" style="background:blue"  class="categories">
+
+<div class="left" >
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/romance/Beautiful Bastard/BeautifulBastard2013Cover.jpg" class="imageclass"></a>
+<p>Long Walk to Freedom is an autobiography written by South African President Nelson Mandela, and first published in 1994 by Little Brown & Co.
+ The book profiles his early life, coming of age, education and 27 years in prison. Under the apartheid government, Mandela was regarded as a terrorist and jailed on the infamous Robben Island for his role as a leader of the then-outlawed ANC.
+ He later achieved international recognition for his leadership as president in rebuilding the country's once segregated society.
+The last chapters of the book describe his political ascension, and his belief that the struggle still continued against apartheid in South Africa.</p>
+</div>
+<div class="right">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/romance/Outlander/Outlander-1991_1st_Edition_cover.jpg" class="imageclass"></a>
+<p>The Story of My Experiments with Truth is the autobiography of Mohandas K. Gandhi, covering his life from early childhood through to 1921.
+ It was written in weekly installments and published in his journal Navjivan from 1925 to 1929. Its English translation also appeared in installments in his other journal Young India.
+ It was initiated at the insistence of Swami Anand and other close co-workers of Gandhi, who encouraged him to explain the background of his public campaigns. 
+In 1999, the book was designated as one of the "100 Best Spiritual Books of the 20th Century" by a committee of global spiritual and religious authorities.</p>
+</div>
+<div class="left">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/romance/Pride and Prejudice/image.jpg" class="imageclass"></a>
+<p>The Autobiography of Benjamin Franklin is the traditional name for the unfinished record of his own life written by Benjamin Franklin from 1771 to 1790; however, Franklin himself appears to have called the work his Memoirs. 
+Although it had a tortuous publication history after Franklin's death, this work has become one of the most famous and influential examples of an autobiography ever written.
+
+Franklin's account of his life is divided into four parts, reflecting the different periods at which he wrote them.
+ There are actual breaks in the narrative between the first three parts, but Part Three's narrative continues into Part Four without an authorial break </p>
+</div>
+<div class="right">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/romance/The Notebook/The_Notebook_Cover.jpg" class="imageclass"></a>
+<p>Steve Jobs is the authorized self-titled biography book of Steve Jobs. 
+The book was written at the request of Jobs by Walter Isaacson, a former executive at CNN and TIME who has written best-selling biographies of Benjamin Franklin and Albert Einstein.
+
+Based on more than forty interviews with Jobs conducted over two years—in addition to interviews with more than one hundred family members, friends, adversaries, competitors, and colleagues—Isaacson was given "unprecedented" access to Jobs's life.
+Jobs is said to have encouraged the people interviewed to speak honestly. Although Jobs cooperated with the book, he asked for no control over its content other than the book's cover, and waived the right to read it before it was published.[4]
+
+The book was released on October 24, 2011, by Simon & Schuster in the United States, 19 days after Jobs' death.
+
+A film adaptation written by Aaron Sorkin and directed by Danny Boyle, with Michael Fassbender starring in the title role, was released on October 9, 2015.</p>
+</div>
+<div class="left">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/romance/The Mister/The_Mister.jpg" class="imageclass"></a>
+<p>The Story of My Life, first published in 1903, is Helen Keller's autobiography detailing her early life, especially her experiences with Anne Sullivan.
+ Portions of it were adapted by William Gibson for a 1957 Playhouse 90 production, a 1959 Broadway play, a 1962 Hollywood feature film, and the Indian film Black. 
+The book is dedicated to inventor Alexander Graham Bell. 
+The dedication reads, "To ALEXANDER GRAHAM BELL Who has taught the deaf to speak and enabled the listening ear to hear speech from the Atlantic to the Rockies, I dedicate this Story of My Life."</p>
+</div>
+<div class="right">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/romance/Redeeming Love/RedeemingLove1stEd.jpg"  class="imageclass"></a>
+<p>Wings of Fire: An Autobiography of A P J Abdul Kalam (1999), former President of India.
+ It was written by Dr. Kalam and Arun Tiwari.Kalam examines his early life, effort, hardship, fortitude, luck and chance that eventually led him to lead Indian space research, nuclear and missile programs. 
+Kalam started his career, after graduating from Aerospace engineering at MIT (Chennai), India, at Hindustan Aeronautics Limited and was assigned to build a hovercraft prototype. Later he moved to ISRO and helped establish the Vikram Sarabhai Space Centre and pioneered the first space launch-vehicle program. During the 1990s and early 2000, Kalam moved to the DRDO to lead the Indian nuclear weapons program, with particular successes in thermonuclear weapons development culminating in the operation Smiling Buddha and an ICBM Agni (missile). 
+Kalam died on 27 July 2015, during a speech at Indian Institute of Management in Shillong, Meghalaya.</p>
+</div>
+</div>
+<div id="div6" style="background:red"  class="categories">
+<div class="left" >
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/travel/Into the Wild/Into_the_Wild_(book)_cover.png" class="imageclass"></a>
+<p>Long Walk to Freedom is an autobiography written by South African President Nelson Mandela, and first published in 1994 by Little Brown & Co.
+ The book profiles his early life, coming of age, education and 27 years in prison. Under the apartheid government, Mandela was regarded as a terrorist and jailed on the infamous Robben Island for his role as a leader of the then-outlawed ANC.
+ He later achieved international recognition for his leadership as president in rebuilding the country's once segregated society.
+The last chapters of the book describe his political ascension, and his belief that the struggle still continued against apartheid in South Africa.</p>
+</div>
+<div class="right">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/travel/Into Thin Air/Into_Thin_Air.jpg" class="imageclass"></a>
+<p>The Story of My Experiments with Truth is the autobiography of Mohandas K. Gandhi, covering his life from early childhood through to 1921.
+ It was written in weekly installments and published in his journal Navjivan from 1925 to 1929. Its English translation also appeared in installments in his other journal Young India.
+ It was initiated at the insistence of Swami Anand and other close co-workers of Gandhi, who encouraged him to explain the background of his public campaigns. 
+In 1999, the book was designated as one of the "100 Best Spiritual Books of the 20th Century" by a committee of global spiritual and religious authorities.</p>
+</div>
+<div class="left">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/travel/Seven Years in Tibet/Sevenyearsbookcover.jpg" class="imageclass"></a>
+<p>The Autobiography of Benjamin Franklin is the traditional name for the unfinished record of his own life written by Benjamin Franklin from 1771 to 1790; however, Franklin himself appears to have called the work his Memoirs. 
+Although it had a tortuous publication history after Franklin's death, this work has become one of the most famous and influential examples of an autobiography ever written.
+
+Franklin's account of his life is divided into four parts, reflecting the different periods at which he wrote them.
+ There are actual breaks in the narrative between the first three parts, but Part Three's narrative continues into Part Four without an authorial break </p>
+</div>
+<div class="right">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/travel/The Great Railway Bazaar/TheGreatRailwayBazaar.jpg" class="imageclass"></a>
+<p>Steve Jobs is the authorized self-titled biography book of Steve Jobs. 
+The book was written at the request of Jobs by Walter Isaacson, a former executive at CNN and TIME who has written best-selling biographies of Benjamin Franklin and Albert Einstein.
+
+Based on more than forty interviews with Jobs conducted over two years—in addition to interviews with more than one hundred family members, friends, adversaries, competitors, and colleagues—Isaacson was given "unprecedented" access to Jobs's life.
+Jobs is said to have encouraged the people interviewed to speak honestly. Although Jobs cooperated with the book, he asked for no control over its content other than the book's cover, and waived the right to read it before it was published.[4]
+
+The book was released on October 24, 2011, by Simon & Schuster in the United States, 19 days after Jobs' death.
+
+A film adaptation written by Aaron Sorkin and directed by Danny Boyle, with Michael Fassbender starring in the title role, was released on October 9, 2015.</p>
+</div>
+<div class="left">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/travel/Under the Tuscan Sun/download.jpg" class="imageclass"></a>
+<p>The Story of My Life, first published in 1903, is Helen Keller's autobiography detailing her early life, especially her experiences with Anne Sullivan.
+ Portions of it were adapted by William Gibson for a 1957 Playhouse 90 production, a 1959 Broadway play, a 1962 Hollywood feature film, and the Indian film Black. 
+The book is dedicated to inventor Alexander Graham Bell. 
+The dedication reads, "To ALEXANDER GRAHAM BELL Who has taught the deaf to speak and enabled the listening ear to hear speech from the Atlantic to the Rockies, I dedicate this Story of My Life."</p>
+</div>
+</div>
+<div id="div7" style="background:darkblue;" class="categories">
+<div class="left" >
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/horror/Bird Box/Bird_Box_2014_book_cover.jpg" class="imageclass"></a>
+<p>Long Walk to Freedom is an autobiography written by South African President Nelson Mandela, and first published in 1994 by Little Brown & Co.
+ The book profiles his early life, coming of age, education and 27 years in prison. Under the apartheid government, Mandela was regarded as a terrorist and jailed on the infamous Robben Island for his role as a leader of the then-outlawed ANC.
+ He later achieved international recognition for his leadership as president in rebuilding the country's once segregated society.
+The last chapters of the book describe his political ascension, and his belief that the struggle still continued against apartheid in South Africa.</p>
+</div>
+<div class="right">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/horror/Dracula/download.jpg" class="imageclass"></a>
+<p>The Story of My Experiments with Truth is the autobiography of Mohandas K. Gandhi, covering his life from early childhood through to 1921.
+ It was written in weekly installments and published in his journal Navjivan from 1925 to 1929. Its English translation also appeared in installments in his other journal Young India.
+ It was initiated at the insistence of Swami Anand and other close co-workers of Gandhi, who encouraged him to explain the background of his public campaigns. 
+In 1999, the book was designated as one of the "100 Best Spiritual Books of the 20th Century" by a committee of global spiritual and religious authorities.</p>
+</div>
+<div class="left">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/horror/It/It_cover.png" class="imageclass"></a>
+<p>The Autobiography of Benjamin Franklin is the traditional name for the unfinished record of his own life written by Benjamin Franklin from 1771 to 1790; however, Franklin himself appears to have called the work his Memoirs. 
+Although it had a tortuous publication history after Franklin's death, this work has become one of the most famous and influential examples of an autobiography ever written.
+
+Franklin's account of his life is divided into four parts, reflecting the different periods at which he wrote them.
+ There are actual breaks in the narrative between the first three parts, but Part Three's narrative continues into Part Four without an authorial break </p>
+</div>
+<div class="right">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/horror/NOS4A2/NOS4A2_cover.jpg" class="imageclass"></a>
+<p>Steve Jobs is the authorized self-titled biography book of Steve Jobs. 
+The book was written at the request of Jobs by Walter Isaacson, a former executive at CNN and TIME who has written best-selling biographies of Benjamin Franklin and Albert Einstein.
+
+Based on more than forty interviews with Jobs conducted over two years—in addition to interviews with more than one hundred family members, friends, adversaries, competitors, and colleagues—Isaacson was given "unprecedented" access to Jobs's life.
+Jobs is said to have encouraged the people interviewed to speak honestly. Although Jobs cooperated with the book, he asked for no control over its content other than the book's cover, and waived the right to read it before it was published.[4]
+
+The book was released on October 24, 2011, by Simon & Schuster in the United States, 19 days after Jobs' death.
+
+A film adaptation written by Aaron Sorkin and directed by Danny Boyle, with Michael Fassbender starring in the title role, was released on October 9, 2015.</p>
+</div>
+<div class="left">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/horror/The Exorcist/The_Exorcist_1971.jpg" class="imageclass"></a>
+<p>The Story of My Life, first published in 1903, is Helen Keller's autobiography detailing her early life, especially her experiences with Anne Sullivan.
+ Portions of it were adapted by William Gibson for a 1957 Playhouse 90 production, a 1959 Broadway play, a 1962 Hollywood feature film, and the Indian film Black. 
+The book is dedicated to inventor Alexander Graham Bell. 
+The dedication reads, "To ALEXANDER GRAHAM BELL Who has taught the deaf to speak and enabled the listening ear to hear speech from the Atlantic to the Rockies, I dedicate this Story of My Life."</p>
+</div>
+<div class="right">
+<a href=""><img src="C:/Users/Rajesh/Desktop/webproject/categories/horror/The Woman in Black/WomanInBlack.jpg"  class="imageclass"></a>
+<p>Wings of Fire: An Autobiography of A P J Abdul Kalam (1999), former President of India.
+ It was written by Dr. Kalam and Arun Tiwari.Kalam examines his early life, effort, hardship, fortitude, luck and chance that eventually led him to lead Indian space research, nuclear and missile programs. 
+Kalam started his career, after graduating from Aerospace engineering at MIT (Chennai), India, at Hindustan Aeronautics Limited and was assigned to build a hovercraft prototype. Later he moved to ISRO and helped establish the Vikram Sarabhai Space Centre and pioneered the first space launch-vehicle program. During the 1990s and early 2000, Kalam moved to the DRDO to lead the Indian nuclear weapons program, with particular successes in thermonuclear weapons development culminating in the operation Smiling Buddha and an ICBM Agni (missile). 
+Kalam died on 27 July 2015, during a speech at Indian Institute of Management in Shillong, Meghalaya.</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+<script>
+function dis(clicked_id)
+{
+var i;
+for(i=1;i<=7;i++)
+{
+document.getElementById("div"+i).style.display="none";
+if(i==clicked_id)
+document.getElementById("div"+clicked_id).style.display="block";
+}
+}
+</script>
+
+</html>
