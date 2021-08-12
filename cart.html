@@ -1,0 +1,97 @@
+<html>
+    <head>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<style>
+    #cart{
+       
+        margin-top: 1000px;
+        margin-left :70px;
+        float:left;
+    }
+    #p{
+        font-size: 30px;
+        color:greenyellow;
+    }
+</style>
+</head>
+    
+     <body onload="myfunction()">
+
+
+            <div style="margin-top:25px">
+
+                    <a href="mainpage.html" class="btn btn-info btn-lg" id="list"style=" margin-left:300px; ">Home</a>
+                    <a href="books.html" class="btn btn-info btn-lg " id="list">Books</a>
+                     <a href=" AboutUs.html" class="btn btn-info btn-lg " id="list">About US</a>
+                   <a href="ContactUs.html" class="btn btn-info btn-lg" id="list">Conatct Us</a>
+                  
+                   
+                        
+                        
+                      
+                     <a href="register1.html" class="btn btn-info btn-lg " id="list">Signup</a>
+                    <a href="login1.html" class="btn btn-info btn-lg "  id="list">Login</a>
+                    
+                
+                
+                
+                <div>
+         <div id=cart class="jumbotron">
+         <div class="col-3" >
+            
+         <img src="#" id=1>
+        </div>
+       
+        <p class="price">RS<span class="price1"> 150</span></p>
+        <p><b>Availability:</b> In Stock</p>
+        
+        <button type="button" onclick=fun() class="btn btn-primary">Buy Now</button>
+        <br>
+        
+        <div><strong>Total:</strong><span style="float:right" id="total">0</strong></div>
+        <p id="p">place your order</p>
+       </div>
+       
+       
+    </body>
+    <script>
+       
+        function myfunction()
+        {   /*$(function()
+        {var container=document.createElement('div');
+          container.id="cart";
+        $('body').append('container');
+        var  html='<div class="col-3 style=""><img src="#" id=2>';
+        html+='<p class="price">RS 120</p>';
+        html+='</div><p><b>Availability:</b>In stock</p>';
+        html+='<button type="button" class="btn btn-primary">Buy Now</button>';
+        $('#cart').append(html);
+
+        });*/
+            
+            
+       var img=document.querySelector("img");
+      
+        value=localStorage.getItem("book1");
+        img.src=value;
+       
+        
+        }
+        function fun()
+        {
+            var price=document.querySelector(".price1");
+            var total=document.getElementById("total");
+            total.textContent=price.textContent;
+           
+
+        }
+        
+    </script>
+</html>
+
+
+
+ 
+         
+       
